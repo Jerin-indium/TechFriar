@@ -1,0 +1,64 @@
+.master-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* background-color: aqua; */
+    padding: 10px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.view-button-container {
+    /* background-color: aquamarine; */
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.view-button {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+}
+
+.icon-select {
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.zoom-button {
+    position: relative;
+    left: 550px;
+    bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 40px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 10;
+    border-radius: 5px;
+}
