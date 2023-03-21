@@ -23,7 +23,7 @@ const Home = () => {
                 {/* Data */}
                 <Chart nodes={[
                     { id: 1, pids: [2], name: 'Seth Willams', img: 'https://cdn.balkan.app/shared/2.jpg', position: 'Managing director', icon: '', add: '' },
-                    { id: 2, mid: 1, name: 'Dave Cooper', img: 'https://cdn.balkan.app/shared/m30/5.jpg', position: 'Regional Director', icon: '', add: '' },
+                    { id: 2, fid: 1, name: 'Dave Cooper', img: 'https://cdn.balkan.app/shared/m30/5.jpg', position: 'Regional Director', icon: '', add: '' },
                     { id: 3, fid: 1, name: 'Ramon Harris', img: 'https://cdn.balkan.app/shared/m10/2.jpg', position: 'Regional Director', icon: '', titleCard: 'Brazil', add: '' },
                     { id: 4, fid: 1, name: 'Dan Morgan', img: 'https://cdn.balkan.app/shared/m10/1.jpg', position: 'Regional Director', icon: '', titleCard: 'USA', add: '' },
                     { id: 5, fid: 1, name: 'Stellah Nelson', img: 'https://cdn.balkan.app/shared/w10/3.jpg', position: 'Regional Director', icon: '', titleCard: 'Italy', add: '' },
@@ -36,11 +36,11 @@ const Home = () => {
                     { id: 12, fid: 8, name: 'Manager', img: 'https://cdn.balkan.app/shared/m10/1.jpg', position: 'Brian Walker', icon: '', add: '' },
                     { id: 13, fid: 8, name: 'Manager', img: 'https://cdn.balkan.app/shared/w10/3.jpg', position: 'Vera Martinez', icon: '', add: '' },
                 ]} />
-                <div className="zoom-button">
+            </div>
+            <div className="zoom-button">
                     <FontAwesomeIcon color='black' icon={faPlus} size="sm" />
                     <FontAwesomeIcon color='black' icon={faMinus} size="sm" />
                 </div>
-            </div>
         </div>
     )
 }

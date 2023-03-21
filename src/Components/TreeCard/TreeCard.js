@@ -22,6 +22,9 @@ const Chart = (props) => {
             levelSeparation: 200,
             siblingSeparation: 60,
             subtreeSeparation: 60,
+            nodeTreeMenu: false,
+            toolbar: false,
+            
 
             nodeBinding: {
                 img_0: 'img',
@@ -35,8 +38,6 @@ const Chart = (props) => {
         });
 
     }, [])
-
-
 
 
     FamilyTree.templates.tommy.field_0 =
@@ -88,8 +89,8 @@ const Chart = (props) => {
 </svg>`;
 
 
-    // FamilyTree.templates.tommy.link =
-    //     '<path stroke="#686868" stroke-width="1px" fill="none" data-l-id="[{id}][{child-id}]" d="M{xa},{ya} C{xb},{yb} {xc},{yc} {xd},{yd}" />';
+    FamilyTree.templates.tommy.link =
+        '<path stroke="#E8E8E8" stroke-width="4px" fill="none" data-l-id="[{id}][{child-id}]" d="M{xa},{ya} Q{xb},{yb} {xc},{yc} L{xd},{yd}" />';
 
     return (
         <div id="tree" ref={divRef}></div>
